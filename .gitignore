@@ -1,0 +1,32 @@
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# SQLite or other local databases
+*.db
+*.sqlite3
+
+# VS Code settings
+.vscode/
+
+# Virtual environment folders
+venv/
+env/
+.venv/
+ENV/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled or temporary files
+*.tmp
+*.bak

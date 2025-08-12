@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>{{ event['title'] }}</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"><link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"></head>
+<body>
+<div class="container py-5">
+  <div class="card p-4">
+    <h2>{{ event['title'] }}</h2>
+    <p>{{ event['description'] }}</p>
+    <p><strong>Date:</strong> {{ event['date'] }} &nbsp; • &nbsp; <strong>Type:</strong> {{ event['event_type'] }}</p>
+    <p><strong>Registered:</strong> {{ reg_count }} / {{ event['limit'] }}</p>
+    <a href="/register/{{ event['_id'] }}" class="btn btn-primary">Register</a> <a href="/" class="btn btn-link">Back</a>
+  </div>
+</div>
+</body></html>
