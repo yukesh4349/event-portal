@@ -1,0 +1,1 @@
+Run:\n1. pip install -r requirements.txt\n2. python app.py\n3. open http://127.0.0.1:5000\n
